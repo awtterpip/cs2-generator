@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>My Playground</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1 id="greeting">CS2 multiline chat bind generator</h1>
+        <div class="col">
+        <div class="row space_between">
+            <div class="row">
+                <p>next message key:</p>
+                <input id="next-message-key">
+            </div>
+            <div class="row">
+                <p>reset key:</p>
+                <input id="reset-key">
+            </div>
+        </div>
+        <div class="row space_between">
+            <div class="row">
+                <p>internal function name (optional): </p>
+                <input id="internal-function-name">
+            </div>
+            <div class="row">
+                <p>loop: </p>
+                <input type="checkbox" id="loop">
+            </div>
+        </div>
+
+            <div class="message-box">
+                <p>message:</p>
+                <textarea id="message"></textarea>
+            </div>
+        
+                
+        <button id="generate">Generate</button>
+        <code id="output"></code>
+        <script src="script.js"></script>
+    </body>
+</html>
