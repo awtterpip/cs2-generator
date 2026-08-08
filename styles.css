@@ -1,0 +1,51 @@
+body {
+    font-family: system-ui, sans-serif;
+    padding: 24px;
+    color: #1b1b1f;
+}
+
+#greeting {
+    color: #3b82f6;
+}
+
+.space_between {
+    justify-content: space-around;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-box {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+p, code {
+    color: white
+}
+
+code {
+    margin-top: 32px;
+}
+
+input {
+    width: 50px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    cursor: pointer;
+}
